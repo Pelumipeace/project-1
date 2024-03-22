@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* header css starts */
+header {
+  font-weight: 300;
+  padding: 15px;
+  background-color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#branding {
+  font-size: 15px;
+}
+
+#branding h1 {
+  color: brown;
+}
+
+#branding span {
+  color: white;
+}
+
+.navlist li {
+  list-style: none;
+  color: white;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.navlist li:hover {
+  color: brown;
+}
+
+.navlist ul {
+  display: flex;
+  gap: 30px;
+}
+
+/* header css ends */
+
+/* hero start */
+.advertbox {
+  position: relative;
+}
+
+.heroTextbox {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.box{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.boxTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heroText {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero {
+  width: 100%;
+  height: 500px;
+}
+/* hero ends */
+.whatweoffer {
+  display: flex;
+  padding: 0px 30px;
+  margin-top: 30px;
+  gap: 15px;
+  align-items: center;
+}
+.childA {
+  width: 50%;
+}
+.childB {
+  width: 50%;
+  padding: 20px;
+}
+.cement {
+  width: 100%;
+}
+.cement img {
+  width: 100%;
+}
+.icon {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.reachbox {
+  display: flex;
+  padding: 40px 30px;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.titlebox {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.titlebox,
+.formbox {
+  width: 100%;
+}
+
+.inputfield {
+  width: 60%;
+  padding: 20px 20px;
+  outline: none;
+}
+
+.inputfield::placeholder {
+  font-size: 20px;
+}
+.bottonbox {
+  margin-top: 10px;
+}
+.actionbutton {
+  padding: 6px 20px;
+}
